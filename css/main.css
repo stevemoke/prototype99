@@ -1,0 +1,306 @@
+body {
+    margin-top: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+    color: #222331;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006BA6;
+}
+
+#wrapper {
+	margin: 0 auto;
+    position: relative;
+    max-width: 1440px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #222331;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+li:hover {
+    color: #006BA6;
+}
+
+#back-to-start {
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    height: 40px;
+    width: 36px;
+}
+
+#logo {
+    background-color: transparent;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    height: 32px;
+    width: 238px;
+}
+
+#nav-bar-links {
+    position: absolute;
+    left: 872px;
+    top: 84px;
+}
+
+li.primary {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 45px;
+}
+
+#stock-ideas-dropdown {
+    background-color: #fff;
+    box-shadow: 0 8px 4px rgba(83,86,90,0.15);
+    padding: 20px 40px 4px 20px;
+    position: absolute;
+    top: 132px;
+    left: 1100px;
+    display: none;
+    z-index: 100;
+}
+
+li.secondary {
+    margin-bottom: 20px;
+
+}
+
+.hideMenu {
+    display: none;
+}
+
+.showMenu {
+    display: block;
+}
+
+.primary-btn {
+    background-color: transparent;
+    display: block;
+    height: 50px;
+}
+
+#lesson-btn {
+    position: absolute;
+    top: 570px;
+    left: 914px;
+    width: 170px;
+}
+
+#lesson-btn:hover {
+    background-image: url("..//images/btn-lesson1.png");
+}
+
+.card {
+    background-color: transparent;
+    display: block;
+    width: 261px;
+}
+
+#lesson-card {
+    position: absolute;
+    height: 250px;
+    top: 880px;
+    left: 161px;
+}
+
+#lesson-card:hover {
+    background-image: url("..//images/card-lesson1.png");
+}
+
+.text-link-large {
+    background-color: transparent;
+    display: block;
+    height: 24px;
+}
+
+#back-to-course-link_learn-investing {
+    background-image: url("..//images/text-link-learn-investing_default.png");
+    position: absolute;
+    top: 252px;
+    left: 967px;
+    width: 163px;
+}
+
+#back-to-course-link_learn-investing:hover {
+    background-image: url("..//images/text-link-learn-investing.png");
+}
+
+.text-link-regular {
+    background-color: transparent;
+    display: block;
+    height: 18px;
+}
+
+#back-to-main {
+    background-image: url("..//images/breadcrumb-back-to-main_default.png");
+    position: absolute;
+    top: 147px;
+    left: 80px;
+    width: 162px;
+}
+
+#back-to-main:hover {
+    background-image: url("..//images/breadcrumb-back-to-main.png");
+}
+
+#company-lemonade {
+    background-image: url("..//images/text-link-Lemonade_default.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 381px;
+    left: 181px;
+    width: 92px;
+}
+
+#company-lemonade:hover {
+    background-image: url("..//images/text-link-Lemonade.png");
+    background-repeat: no-repeat;
+}
+
+#rankings-link_march-2021 {
+    background-image: url("..//images/stock-rankings-march-2021_default.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 291px;
+    left: 112px;
+    height: 20px;
+    width: 252px;
+}
+
+#rankings-link_march-2021:hover {
+    background-image: url("..//images/stock-rankings-march-2021.png");
+    background-repeat: no-repeat;
+}
+
+#gray-overlay {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#modal-wrap {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+#container {
+    padding: 8rem 0 4rem 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+#welcome-mat {
+    background-image: url("..//images/welcome-mat.png");
+    background-repeat: no-repeat;
+    height: 551px;
+    width: 1024px;
+    margin: 0 auto;
+    /*position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;*/
+}
+
+.mat-content {
+    position: relative;
+}
+
+.test {
+    background-color: #fff;
+    position: absolute;
+    top: 552px;
+    height: 551px;
+    width: 1024px;
+}
+
+#close-x {
+    background-color: transparent;
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    height: 30px;
+    width: 30px;
+}
+
+.link-welcome-mat {
+    background-color: transparent;
+    position: absolute;
+    left: 574px;
+    height: 87px;
+    width: 397px;
+}
+
+#welcome-learn {
+    top: 120px;
+}
+
+#welcome-learn:hover {
+    background-image: url("..//images/mat-link-highlighted_learn.png");
+}
+
+#welcome-goals {
+    top: 216px;
+}
+
+#welcome-goals:hover {
+    background-image: url("..//images/mat-link-highlighted_goals.png");
+}
+
+#welcome-stock-ideas {
+    top: 311px;
+}
+
+#welcome-stock-ideas:hover {
+    background-image: url("..//images/mat-link-highlighted_stock-ideas.png");
+}
+
+#welcome-manage-portfolio {
+    top: 404px;
+}
+
+#welcome-manage-portfolio:hover {
+    background-image: url("..//images/mat-link-highlighted_manage-portfolio.png");
+}
+
+#text-link-main-page {
+    background-color: transparent;
+    position: absolute;
+    top: 506px;
+    left: 701px;
+    height: 16px;
+    width: 139px;
+}
+
