@@ -272,7 +272,7 @@ li.secondary {
     width: 397px;
 }
 
-#welcome-learn {
+/* #welcome-learn {
     top: 120px;
 }
 
@@ -302,7 +302,7 @@ li.secondary {
 
 #welcome-manage-portfolio:hover {
     background-image: url("..//images/mat-link-highlighted_manage-portfolio.png");
-}
+} */
 
 #text-link-main-page {
     background-color: transparent;
