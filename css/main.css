@@ -58,11 +58,20 @@ li:hover {
 
 #nav-bar-links {
     position: absolute;
-    left: 872px;
-    top: 84px;
+    right: 40px;
+    top: 100px;
+    font-family: sans-serif;
+    color: #bbbbbb;
 }
 
-li.primary {
+#nav-bar-links li,
+#nav-bar-links li a {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #555555;
+}
+#nav-bar-links li.primary {
     cursor: pointer;
     display: inline-block;
     margin-right: 45px;
@@ -222,10 +231,10 @@ li.secondary {
 }
 
 #welcome-mat {
-    background-image: url("..//images/welcome-mat.png");
+    background-image: url("..//images/WelcomeMat1.png");
     background-repeat: no-repeat;
-    height: 551px;
-    width: 1024px;
+    height: 689px;
+    width: 1106px;
     margin: 0 auto;
     /*position: fixed;
     top: 50%;
